@@ -17,3 +17,11 @@ The file `central_limit_theorem.py` simulates 10,000 samples of 30 dice rolls.
 It calculates the mean of each sample and plots the distribution of these sample means.
 
 The histogram becomes roughly bell-shaped, showing the Central Limit Theorem.
+
+## Monte Carlo Probability
+
+The file `monte_carlo_probability.py` estimates the probability that the sum of two fair dice is at least 10.
+
+It does this by simulating 100,000 pairs of dice rolls and calculating the proportion where the total is 10, 11, or 12.
+
+This demonstrates how Monte Carlo simulation can estimate probabilities using repeated random trials.
