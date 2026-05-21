@@ -25,3 +25,11 @@ The file `monte_carlo_probability.py` estimates the probability that the sum of 
 It does this by simulating 100,000 pairs of dice rolls and calculating the proportion where the total is 10, 11, or 12.
 
 This demonstrates how Monte Carlo simulation can estimate probabilities using repeated random trials.
+
+## Distribution Simulations
+
+The file `distributions.py` simulates Binomial, Poisson, and Geometric random variables.
+
+It compares the simulated mean and variance with the theoretical mean and variance for each distribution.
+
+This shows how repeated simulation can confirm theoretical probability results.
