@@ -2,6 +2,13 @@
 
 This project uses Python simulations to build intuition for key probability results.
 
+## Files
+
+- `law_of_large_numbers.py` — simulates dice rolls and shows the running average approaching the expected value.
+- `central_limit_theorem.py` — simulates sample means and shows the Central Limit Theorem.
+- `monte_carlo_probability.py` — estimates a probability using repeated random trials.
+- `distributions.py` — compares simulated and theoretical means/variances for common distributions.
+
 ## Law of Large Numbers
 
 The file `law_of_large_numbers.py` simulates 10,000 dice rolls and plots the running average.
@@ -28,12 +35,6 @@ This demonstrates how Monte Carlo simulation can estimate probabilities using re
 
 ## Distribution Simulations
 
-## Files
-
-- `law_of_large_numbers.py` — simulates dice rolls and shows the running average approaching the expected value.
-- `central_limit_theorem.py` — simulates sample means and shows the Central Limit Theorem.
-- `monte_carlo_probability.py` — estimates a probability using repeated random trials.
-- `distributions.py` — compares simulated and theoretical means/variances for common distributions.
 The file `distributions.py` simulates Binomial, Poisson, and Geometric random variables.
 
 It compares the simulated mean and variance with the theoretical mean and variance for each distribution.
