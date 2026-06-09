@@ -13,4 +13,5 @@ plt.title("Central Limit Theorem: Dice Roll Sample Means")
 plt.xlabel("Sample mean")
 plt.ylabel("Frequency")
 
+plt.savefig("central_limit_theorem.png", dpi=300, bbox_inches="tight")
 plt.show()
