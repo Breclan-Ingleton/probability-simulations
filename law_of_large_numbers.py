@@ -13,4 +13,5 @@ plt.title("Law of Large Numbers: Dice Rolls")
 plt.xlabel("Number of rolls")
 plt.ylabel("Running average")
 
+plt.savefig("law_of_large_numbers.png", dpi=300, bbox_inches="tight")
 plt.show()
