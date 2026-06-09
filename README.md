@@ -40,3 +40,13 @@ The file `distributions.py` simulates Binomial, Poisson, and Geometric random va
 It compares the simulated mean and variance with the theoretical mean and variance for each distribution.
 
 This shows how repeated simulation can confirm theoretical probability results.
+
+## Example plots
+
+### Law of Large Numbers
+
+![Law of Large Numbers](law_of_large_numbers.png)
+
+### Central Limit Theorem
+
+![Central Limit Theorem](central_limit_theorem.png)
